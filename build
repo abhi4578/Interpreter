@@ -1,0 +1,3 @@
+bison -yd pop.y  #to use bison ass yacc -y option used and -d option to generate y.tab.h which is included in pop.l
+flex pop.l
+gcc lex.yy.c y.tab.c 
